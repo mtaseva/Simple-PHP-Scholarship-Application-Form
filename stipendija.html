@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стипендија</title>
+</head>
+<body style="background-color: lightgray;">
+
+    <center>
+        <h1>Поднеси податоци за стипендија</h1>
+        <form action="./aplikacija.php" method="post">
+            <table border="0">
+                <tr>
+                    <td>Име: <input type="text" name="ime" size="25" required></td>
+                </tr>
+                <tr>
+                    <td>Презиме: <input type="text" name="prezime" size="25" required></td>
+                </tr>
+                <tr>
+                    <td>Бр. индекс: <input type="text" name="indeks" size="25"></td>
+                </tr>
+                <tr><td><b><h3>Тип на стипендија</h3></b></td></tr>
+                <tr>
+                <td>
+                    <input value="a" type="radio" id="tipa" name="selektiraj" required>
+                    <label for="tipa">Тип А</label><br>
+                    <input value="b" type="radio" id="tipb" name="selektiraj" required>
+                    <label for="tipb">Тип B</label><br>
+                    <input value="c" type="radio" id="tipc" name="selektiraj" required>
+                    <label for="tipc">Тип C</label>
+                </td></tr>
+                <tr><td><b><h3>Внесете ги предметите и оценките</h3></b></td></tr>
+                <tr>
+                    <td><b>Предмет</b></td>
+                    <td><b>Оценка</b></td>
+                </tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
+                <tr>
+                    <td><input type="text" name="p1" size="25" required></td>
+                    <td><input type="text" name="o1" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p2" size="25" required></td>
+                    <td><input type="text" name="o2" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p3" size="25" required></td>
+                    <td><input type="text" name="o3" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p4" size="25" required></td>
+                    <td><input type="text" name="o4" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p5" size="25" required></td>
+                    <td><input type="text" name="o5" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p6" size="25" required></td>
+                    <td><input type="text" name="o6" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p7" size="25" required></td>
+                    <td><input type="text" name="o7" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p8" size="25" required></td>
+                    <td><input type="text" name="o8" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p9" size="25" required></td>
+                    <td><input type="text" name="o9" size="5" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="p10" size="25" required></td>
+                    <td><input type="text" name="o10" size="5" required></td>
+                </tr>
+                <tr><td colspan="2"><br><input type="submit" value="Поднеси"></td></tr>
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
